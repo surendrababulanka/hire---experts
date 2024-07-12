@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-type{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    outline: none;
+    gap: 10px;
+    line-height: 20px;
+    margin:30px 0 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+body{
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 100px;
+    background-color: black;
+}
+/* @media screen and (max-width:990px) {
+    header{
+        padding: 0;
+    }
+} */
+header .logo img{
+    background-color: black;
+}
+head ul{
+    position: relative;
+}
+ul {
+    display: flex;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    font-size: 16px;
+    float: left;
+}
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.655);
+}
+header ul li a:hover{
+    color: white;
+}
+.active{
+    color:white;
+}
+button{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+.button li{
+    padding:0 10px;
+}
+header button{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.button .active button{
+    background-color: rgb(40, 112, 146);
+}
+.button .btn button{
+    border: 1px solid rgba(255, 255, 255, 0.543);
+}
+header ul li .links,.links2{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(11, 10, 10);
+    margin-top: 20px;
+    width: 100px;
+}
+header ul li ul li a{
+   color:white;
+   top: 30;
+}
+header ul li~checked .links{
+    display: block;
+}
+/* checkout start */
+.checkout{
+    display: flex;
+    padding: 0 70px;
+    margin: 50px 0;
+    /* background-color: #146ef5; */
+    height: 300px;
+    padding: 50px;
+    /* color: white; */
+    gap: 10px;
+}
+.checkout .b{
+    display: flex;
+    gap: 10px;
+}
+.checkout button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+}
+.checkout .btn{
+    display: flex;
+    gap: 10px;
+}
+.checkout img{
+    width: 216px;
+    margin-top: 106px;
+}
+.checkout h1{
+    font-size: 62px;
+}
+.checkout button{
+    margin-top: 20px;
+}
+/* checkout end */
